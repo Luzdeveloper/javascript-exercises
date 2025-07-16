@@ -1,20 +1,20 @@
 # Exercise 03 - numberChecker
 
-Modify the code so it returns `true` when the number is greater than or equal to 10, and `false` if it is less than 10.
+Modifiez le code pour qu'il retourne `true` lorsque le nombre est supérieur ou égal à 10, et `false` s'il est inférieur à 10.
 
-Currently, the code returns `true` if the number is `6`, otherwise, it returns `false`.
+Actuellement, le code retourne `true` si le nombre est `6`, sinon il retourne `false`.
 
-You may also notice that in this exercise, there are multiple tests (in the file `numberChecker.spec.js`). Only the first test is currently enabled. So after making sure that the first test passes, enable the next one by deleting the `.skip` portion from the `test.skip()` function. It is usually easier if you enable only one test a time, then edit your code so that it passes. You can keep enabling only one at a time until slowly but surely, they all pass!
+Vous remarquerez également que dans cet exercice, il y a plusieurs tests (dans le fichier `numberChecker.spec.js`). Seul le premier test est actuellement activé. Après avoir vérifié que le premier test passe, activez le suivant en supprimant la partie `.skip` de la fonction `test.skip()`. Il est généralement plus facile d'activer un seul test à la fois, puis de modifier votre code pour qu'il passe. Continuez à activer un test à la fois jusqu'à ce qu'ils passent tous, petit à petit !
 
-- If running `npm test numberChecker.spec.js` returns results similar to what is shown below, make sure that you have enabled the rest of the tests, as described in the instructions above.
+- Si l’exécution de `npm test numberChecker.spec.js` affiche des résultats similaires à ceux ci-dessous, assurez-vous d’avoir activé les autres tests comme indiqué ci-dessus.
 
 ```
 Test Suites: 1 passed, 1 total
 Tests:       3 skipped, 1 passed, 4 total
 ```
 
-## Hints
+## Conseils
 
-- You only need to edit line 2.
+- Vous n'avez besoin de modifier que la ligne 2.
 
-- Look at the docs for comparison operators in JavaScript for a quick reference.
+- Consultez la documentation sur les opérateurs de comparaison en JavaScript pour un rappel rapide.
